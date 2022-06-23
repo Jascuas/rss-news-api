@@ -1,14 +1,14 @@
 import {Routes,Route} from 'react-router-dom';
 
 import News from "./news"
-import New from "./new"
+import NewsList from "./newsList"
 
 function App() {
   return (
     <Routes>
-      <Route exact path="/" element={<News />} />
-      <Route path="/news" element={<News />} />
-      <Route path="/new" element={<New />} />
+      <Route exact path="/" element={<NewsList />} />
+      <Route path="/news" element={<NewsList />} />
+      <Route path="/new" element={<News />} />
     </Routes>
   );
 }
