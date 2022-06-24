@@ -1,32 +1,10 @@
 import { useEffect, useState } from "react";
 import { Link } from 'react-router-dom';
 
-
+import { createRequest } from '../utils/request';
 import Navbar from '../components/navBar';
 import NewsCard from '../components/newsCard';
 import SearchForm from '../components/searchForm';
-
-
-// create request to the API
-function createRequest() {
-    var url = "https://www.xatakandroid.com/index.xml";
-    var corsUrl = "https://api.rss2json.com/v1/api.json?rss_url=";
-    var xhr = new XMLHttpRequest();
-    xhr.open('GET', corsUrl + url, true);
-    xhr.send();
-    return new Promise((resolve) => {
-        xhr.onreadystatechange = () => {
-            if (xhr.readyState !== 4) {
-                return;
-            }
-            if (xhr.status === 200) {
-                resolve(JSON.parse(xhr.responseText));
-            } else {
-                console.warn('request_error');
-            }
-        };
-    });
-}
 
 
 function NewsList() {
@@ -36,7 +14,7 @@ function NewsList() {
     // add data from the reqquest to the list
     useEffect(() => {
         try {
-            createRequest().then((data) => {
+            createRequest("https://www.xatakandroid.com/index.xml", "GET").then((data) => {
                 if (data) {
                     setNewsList(data.items)
                     setFilterList(data.items)
