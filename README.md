@@ -30,7 +30,7 @@ When selecting a news, it will show us a screen with its details.
 "><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Jascuas/rss-news-api
+    <a href="https://mute-dew-7362.on.fleek.co
 ">View Demo</a>
   </p>
 </div>
