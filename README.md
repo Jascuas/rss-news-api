@@ -64,7 +64,8 @@ When selecting a news, it will show us a screen with its details.
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![2022-06-25 15_56_06-React App](https://user-images.githubusercontent.com/35936177/175776762-798fd68f-7a2d-4b81-a22c-95f3f552c419.png)
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
