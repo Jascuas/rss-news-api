@@ -66,6 +66,13 @@ When selecting a news, it will show us a screen with its details.
 
 ![2022-06-25 15_56_06-React App](https://user-images.githubusercontent.com/35936177/175776762-798fd68f-7a2d-4b81-a22c-95f3f552c419.png)
 
+On the main page we can see all the news arranged in a column.
+
+Each news item has a title, an image and a description.
+
+We can search the news by title.
+
+We will be up to date on the latest technology events, on a clean and neat page :)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -108,7 +115,24 @@ To get a local copy up and running follow these simple example steps.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
+![2022-06-25 16_04_46-React App](https://user-images.githubusercontent.com/35936177/175777072-6505bf7c-022a-4fc8-a842-c1ea7061aa55.png)
 
+
+To search by title, we will write in the search engine the title of the news that we want.
+
+Distinguishes between uppercase and lowercase, also accents.
+
+We can press enter or click on the icon.
+
+Clearing the text will display all results again.
+
+![2022-06-25 16_05_22-React App](https://user-images.githubusercontent.com/35936177/175777076-ed219ad1-58b3-449b-a505-19a7a5c15b68.png)
+
+On the details screen, we will find the news. The content is the one returned by the xml.
+
+We can give it the styles we want, adding a reference, or in the style sheet.
+
+We can return to the main page, clicking on the logo or the link "Volver a las noticias"
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
